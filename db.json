@@ -1,5 +1,4 @@
 {
-  
   "prices": [
     { "id": 1, "title": "Start-Preis", "price": "0.50" },
     { "id": 2, "title": "Preis pro Stunde", "price": "0.50" },
