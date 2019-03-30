@@ -4,6 +4,6 @@
     { "name": "Stunde", "id": 2, "title": "Preis pro Stunde", "price": "0.50" },
     { "name": "Ladegebühr", "id": 3, "title": "Ladegebühr pro kWh", "price": "0.15" },
     { "name": "Niedertarif", "id": 4, "title": "Niedertarif pro kWh", "price": "0.30" },
-    { "name": "Hochtarif", "id": 5, "title": "Hochtarif pro kWh", "price": "0.30" }
+    { "name": "Hochtarif", "id": 5, "title": "Hochtarif pro kWh", "price": "0.30", "link": "index.html" }
   ]
 }
