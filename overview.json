@@ -66,8 +66,7 @@
   },
   "State": "Ok",
   "ErrorMessage": "Success"
-  }
-
+  },
 {
   "prices": [
     { "id": 1, "name": "Start", "title": "Start-Preis", "price": "0.50", "link": "#" },
@@ -77,3 +76,5 @@
     { "id": 5, "name": "Hochtarif", "title": "Hochtarif pro kWh", "price": "0.30", "link": "overview.html" }
   ]
 }
+
+
