@@ -6,7 +6,7 @@
       "StartPrice": 1.00,
       "WeeklyRecurrence": [
         {
-          "DaysOfWeek": "1,2,3,4,5",
+          "id": 1,
           "Tariff": [
             {
               "StartTime": "00:00:00",
@@ -29,7 +29,7 @@
           ]
         },
         {
-          "DaysOfWeek": "6",
+         "id": 2,
           "Tariff": [
             {
               "StartTime": "00:00:00",
@@ -52,7 +52,7 @@
           ]
         },
         {
-          "DaysOfWeek": "7",
+          "id": 3,
           "Tariff": [
             {
               "StartTime": "00:00:00",
