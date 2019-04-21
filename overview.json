@@ -12,13 +12,16 @@
               "StartTime": "00:00:00",
               "EndTime": "07:00:00",
               "Price": "0.18",
-              "Name": "Niedertarif"
+              "Name": "Niedertarif",
+                              "class":"item"
+
             },
             {
               "StartTime": "07:00:00",
               "EndTime": "20:00:00",
               "Price": "0.25",
-              "Name": "Hochtarif"
+              "Name": "Hochtarif",
+                    "class":"item"
             },
             {
               "StartTime": "20:00:00",
@@ -36,13 +39,15 @@
               "StartTime": "00:00:00",
               "EndTime": "07:00:00",
               "Price": "0.18",
-              "Name": "Niedertarif"
+              "Name": "Niedertarif",
+                    "class":"item"
             },
             {
               "StartTime": "07:00:00",
               "EndTime": "13:00:00",
               "Price": "0.25",
-              "Name": "Hochtarif"
+              "Name": "Hochtarif",
+                    "class":"item"
             },
             {
               "StartTime": "13:00:00",
@@ -60,7 +65,8 @@
               "StartTime": "00:00:00",
               "EndTime": "23:59:59",
               "Price": "0.18",
-              "Name": "Niedertarif"
+              "Name": "Niedertarif",
+                    "class":"item"
             }
           ]
         }
