@@ -6,8 +6,9 @@
       "StartPrice": 1.00,
       "WeeklyRecurrence": [
         {
-
-            
+          "DaysOfWeek": "1,2,3,4,5",
+          "Tariff": [
+            {
               "StartTime": "00:00:00",
               "EndTime": "07:00:00",
               "Price": "0.18",
@@ -25,11 +26,12 @@
               "Price": "0.18",
               "Name": "Niedertarif"
             }
-          
-        ,
+          ]
+        },
         {
-     
-            
+          "DaysOfWeek": "6",
+          "Tariff": [
+            {
               "StartTime": "00:00:00",
               "EndTime": "07:00:00",
               "Price": "0.18",
@@ -47,18 +49,19 @@
               "Price": "0.18",
               "Name": "Niedertarif"
             }
-          
-        ,
+          ]
+        },
         {
-    
-            
+          "DaysOfWeek": "7",
+          "Tariff": [
+            {
               "StartTime": "00:00:00",
               "EndTime": "23:59:59",
               "Price": "0.18",
               "Name": "Niedertarif"
             }
-          
-        
+          ]
+        }
       ]
     },
 
@@ -73,8 +76,3 @@
       "State": "Ok",
       "ErrorMessage": "Success"
 }
-
-
-
-  
-  
