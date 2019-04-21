@@ -1,86 +1,111 @@
 {
     "Data": {
-      "ChargeFee": 0.00,
-      "ReserveAmount": 20.00,
-      "PricePerHour": 0.15,
-      "StartPrice": 1.00,
-      "WeeklyRecurrence": [
-        {
-          "id": 1,
-          "Tariff": [
+        "ChargeFee": 0.00,
+        "ReserveAmount": 20.00,
+        "PricePerHour": 0.15,
+        "StartPrice": 1.00,
+        "WeeklyRecurrence": [
             {
-              "StartTime": "00:00:00",
-              "EndTime": "07:00:00",
-              "Price": "0.18",
-              "Name": "Niedertarif",
-                              "class":"item"
-
+                "id": 1,
+                "Tariff": [
+                    {
+                        "StartTime": "00:00:00",
+                        "EndTime": "07:00:00",
+                        "Price": "0.18",
+                        "Name": "Niedertarif",
+                        "Class": "item"
+                    },
+                    {
+                        "StartTime": "07:00:00",
+                        "EndTime": "20:00:00",
+                        "Price": "0.25",
+                        "Name": "Hochtarif",
+                        "Class": "item"
+                    },
+                    {
+                        "StartTime": "20:00:00",
+                        "EndTime": "23:59:59",
+                        "Price": "0.18",
+                        "Class": "lastitem"
+                    }
+                ]
             },
             {
-              "StartTime": "07:00:00",
-              "EndTime": "20:00:00",
-              "Price": "0.25",
-              "Name": "Hochtarif",
-                    "class":"item"
+                "id": 2,
+                "Tariff": [
+                    {
+                        "StartTime": "00:00:00",
+                        "EndTime": "07:00:00",
+                        "Price": "0.18",
+                        "Name": "Niedertarif",
+                        "Class": "item"
+                    },
+                    {
+                        "StartTime": "07:00:00",
+                        "EndTime": "13:00:00",
+                        "Price": "0.25",
+                        "Name": "Hochtarif",
+                        "Class": "item"
+                    },
+                    {
+                        "StartTime": "13:00:00",
+                        "EndTime": "23:59:59",
+                        "Price": "0.18",
+                        "Class": "lastitem"
+                    }
+                ]
             },
             {
-              "StartTime": "20:00:00",
-              "EndTime": "23:59:59",
-              "Price": "0.18",
-              "class":"lastitem"
-
+                "id": 3,
+                "Tariff": [
+                    {
+                        "StartTime": "00:00:00",
+                        "EndTime": "23:59:59",
+                        "Price": "0.18",
+                        "Name": "Niedertarif",
+                        "Class": "item"
+                    }
+                ]
             }
-          ]
-        },
-        {
-         "id": 2,
-          "Tariff": [
-            {
-              "StartTime": "00:00:00",
-              "EndTime": "07:00:00",
-              "Price": "0.18",
-              "Name": "Niedertarif",
-                    "class":"item"
-            },
-            {
-              "StartTime": "07:00:00",
-              "EndTime": "13:00:00",
-              "Price": "0.25",
-              "Name": "Hochtarif",
-                    "class":"item"
-            },
-            {
-              "StartTime": "13:00:00",
-              "EndTime": "23:59:59",
-              "Price": "0.18",
-          "class":"lastitem"
-
-            }
-          ]
-        },
-        {
-          "id": 3,
-          "Tariff": [
-            {
-              "StartTime": "00:00:00",
-              "EndTime": "23:59:59",
-              "Price": "0.18",
-              "Name": "Niedertarif",
-                    "class":"item"
-            }
-          ]
-        }
-      ]
+        ]
     },
-
     "prices": [
-        { "id": 1, "name": "Start", "title": "Start-Preis", "price": "0.50", "link": "#" },
-        { "id": 2, "name": "Stunde", "title": "Preis pro Stunde", "price": "0.50", "link": "#" },
-        { "id": 3, "name": "Ladegebühr", "title": "Ladegebühr pro kWh", "price": "0.15", "link": "#" },
-        { "id": 4, "name": "Niedertarif", "title": "Niedertarif pro kWh", "price": "0.30", "link": "overview.html" },
-        { "id": 5, "name": "Hochtarif", "title": "Hochtarif pro kWh", "price": "0.30", "link": "overview.html" }
-      ],
-
-      "State": "Ok",
-      "ErrorMessage": "Success"
+        {
+            "id": 1,
+            "name": "Start",
+            "title": "Start-Preis",
+            "price": "0.50",
+            "link": "#"
+        },
+        {
+            "id": 2,
+            "name": "Stunde",
+            "title": "Preis pro Stunde",
+            "price": "0.50",
+            "link": "#"
+        },
+        {
+            "id": 3,
+            "name": "Ladegebühr",
+            "title": "Ladegebühr pro kWh",
+            "price": "0.15",
+            "link": "#"
+        },
+        {
+            "id": 4,
+            "name": "Niedertarif",
+            "title": "Niedertarif pro kWh",
+            "price": "0.30",
+            "link": "overview.html"
+        },
+        {
+            "id": 5,
+            "name": "Hochtarif",
+            "title": "Hochtarif pro kWh",
+            "price": "0.30",
+            "link": "overview.html"
+        }
+    ],
+    "State": "Ok",
+    "ErrorMessage": "Success"
 }
