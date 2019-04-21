@@ -24,8 +24,7 @@
               "StartTime": "20:00:00",
               "EndTime": "23:59:59",
               "Price": "0.18",
-              "Name": "Niedertarif",
-              "Class": "last-item"
+              "Name": "lastitem",
             }
           ]
         },
@@ -48,8 +47,7 @@
               "StartTime": "13:00:00",
               "EndTime": "23:59:59",
               "Price": "0.18",
-              "Name": "Niedertarif",
-              "Class": "last-item"
+              "Name": "lastitem",
             }
           ]
         },
