@@ -4,9 +4,11 @@
         "ReserveAmount": 20.00,
         "PricePerHour": 0.15,
         "StartPrice": 1.00,
-        "WeeklyRecurrence": [{
+        "WeeklyRecurrence": [
+            {
                 "id": 1,
-                "Tariff": [{
+                "Tariff": [
+                    {
                         "StartTime": "00:00:00",
                         "EndTime": "07:00:00",
                         "Price": "0.18",
@@ -31,7 +33,8 @@
             },
             {
                 "id": 2,
-                "Tariff": [{
+                "Tariff": [
+                    {
                         "StartTime": "00:00:00",
                         "EndTime": "07:00:00",
                         "Price": "0.18",
@@ -56,17 +59,20 @@
             },
             {
                 "id": 3,
-                "Tariff": [{
-                    "StartTime": "00:00:00",
-                    "EndTime": "23:59:59",
-                    "Price": "0.18",
-                    "Name": "Niedertarif",
-                    "Class": "item"
-                }]
+                "Tariff": [
+                    {
+                        "StartTime": "00:00:00",
+                        "EndTime": "23:59:59",
+                        "Price": "0.18",
+                        "Name": "Niedertarif",
+                        "Class": "item"
+                    }
+                ]
             }
         ]
     },
-    "prices": [{
+    "prices": [
+        {
             "id": 1,
             "name": "Start",
             "title": "Start-Preis",
@@ -102,47 +108,91 @@
             "link": "overview.html"
         }
     ],
-
-    "receipts": [{
-            "id": 1,
-            "charging": "32111",
-            "station": "90005:04",
-            "type": "sms",
-            "date": "25/03/19 - 14:41",
-            "status": "Initialized"
+    "receipts": [
+        {
+            "ArticleNr": "2",
+            "Quantity": 0.0000,
+            "QuantityUnit": "kWh",
+            "Price": 0.2500,
+            "TotalPrice": 0.0000,
+            "Name": "Hochtarif",
+            "Description": "Start: 09:19:25, End: 09:19:40",
+            "transactionId": "32090",
+            "paymentType": "datatrans",
+            "chargingStation": "90005:04",
+            "timeStarted": 1553501906726,
+            "status": "Initialized",
+            "timeStartedFormatted": "25.03.19, 09:18",
+            "titleFormatted": "CHARGING 32090",
+            "statusFormatted": "CONFIRMED"
         },
         {
-            "id": 2,
-            "charging": "32111",
-            "station": "90005:04",
-            "type": "sms",
-            "date": "25/03/19 - 14:41",
-            "status": "Initialized"
+            "ArticleNr": "2",
+            "Quantity": 0.0000,
+            "QuantityUnit": "kWh",
+            "Price": 0.2500,
+            "TotalPrice": 0.0000,
+            "Name": "Hochtarif",
+            "Description": "Start: 09:19:25, End: 09:19:40",
+            "transactionId": "32090",
+            "paymentType": "datatrans",
+            "chargingStation": "90005:04",
+            "timeStarted": 1553501906726,
+            "status": "Initialized",
+            "timeStartedFormatted": "25.03.19, 09:18",
+            "titleFormatted": "CHARGING 32090",
+            "statusFormatted": "CONFIRMED"
         },
         {
-            "id": 3,
-            "charging": "32111",
-            "station": "90005:04",
-            "type": "sms",
-            "date": "25/03/19 - 14:41",
-            "status": "Initialized"
+            "ArticleNr": "2",
+            "Quantity": 0.0000,
+            "QuantityUnit": "kWh",
+            "Price": 0.2500,
+            "TotalPrice": 0.0000,
+            "Name": "Hochtarif",
+            "Description": "Start: 09:19:25, End: 09:19:40",
+            "transactionId": "32090",
+            "paymentType": "datatrans",
+            "chargingStation": "90005:04",
+            "timeStarted": 1553501906726,
+            "status": "Initialized",
+            "timeStartedFormatted": "25.03.19, 09:18",
+            "titleFormatted": "CHARGING 32090",
+            "statusFormatted": "CONFIRMED"
         },
         {
-            "id": 4,
-            "charging": "32111",
-            "station": "90005:04",
-            "type": "sms",
-            "date": "25/03/19 - 14:41",
-            "status": "Initialized"
+            "ArticleNr": "2",
+            "Quantity": 0.0000,
+            "QuantityUnit": "kWh",
+            "Price": 0.2500,
+            "TotalPrice": 0.0000,
+            "Name": "Hochtarif",
+            "Description": "Start: 09:19:25, End: 09:19:40",
+            "transactionId": "32090",
+            "paymentType": "datatrans",
+            "chargingStation": "90005:04",
+            "timeStarted": 1553501906726,
+            "status": "Initialized",
+            "timeStartedFormatted": "25.03.19, 09:18",
+            "titleFormatted": "CHARGING 32090",
+            "statusFormatted": "CONFIRMED"
         },
         {
-            "id": 5,
-            "charging": "32111",
-            "station": "90005:04",
-            "type": "sms",
-            "date": "25/03/19 - 14:41",
-            "status": "Initialized"
+            "ArticleNr": "2",
+            "Quantity": 0.0000,
+            "QuantityUnit": "kWh",
+            "Price": 0.2500,
+            "TotalPrice": 0.0000,
+            "Name": "Hochtarif",
+            "Description": "Start: 09:19:25, End: 09:19:40",
+            "transactionId": "32090",
+            "paymentType": "datatrans",
+            "chargingStation": "90005:04",
+            "timeStarted": 1553501906726,
+            "status": "Initialized",
+            "timeStartedFormatted": "25.03.19, 09:18",
+            "titleFormatted": "CHARGING 32090",
+            "statusFormatted": "CONFIRMED"
         }
     ]
-
 }
