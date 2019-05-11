@@ -110,4 +110,45 @@
     ],
     "State": "Ok",
     "ErrorMessage": "Success"
+},
+    "receipts": [
+        {
+            "id": 1,
+            "name": "Start",
+            "title": "Start-Preis",
+            "price": "0.50",
+            "link": "#"
+        },
+        {
+            "id": 2,
+            "name": "Stunde",
+            "title": "Preis pro Stunde",
+            "price": "0.50",
+            "link": "#"
+        },
+        {
+            "id": 3,
+            "name": "Ladegebühr",
+            "title": "Ladegebühr pro kWh",
+            "price": "0.15",
+            "link": "#"
+        },
+        {
+            "id": 4,
+            "name": "Niedertarif",
+            "title": "Niedertarif pro kWh",
+            "price": "0.30",
+            "link": "overview.html"
+        },
+        {
+            "id": 5,
+            "name": "Hochtarif",
+            "title": "Hochtarif pro kWh",
+            "price": "0.30",
+            "link": "overview.html"
+        }
+    ],
+    "State": "Ok",
+    "ErrorMessage": "Success"
 }
+
