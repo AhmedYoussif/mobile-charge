@@ -105,38 +105,43 @@
 
     "receipts": [{
             "id": 1,
-            "name": "Start",
-            "title": "Start-Preis",
-            "price": "0.50",
-            "link": "#"
+            "charging": "32111",
+            "station": "90005:04",
+            "type": "sms",
+            "date": "25/03/19 - 14:41",
+            "status": "Initialized"
         },
         {
             "id": 2,
-            "name": "Stunde",
-            "title": "Preis pro Stunde",
-            "price": "0.50",
-            "link": "#"
+            "charging": "32111",
+            "station": "90005:04",
+            "type": "sms",
+            "date": "25/03/19 - 14:41",
+            "status": "Initialized"
         },
         {
             "id": 3,
-            "name": "Ladegebühr",
-            "title": "Ladegebühr pro kWh",
-            "price": "0.15",
-            "link": "#"
+            "charging": "32111",
+            "station": "90005:04",
+            "type": "sms",
+            "date": "25/03/19 - 14:41",
+            "status": "Initialized"
         },
         {
             "id": 4,
-            "name": "Niedertarif",
-            "title": "Niedertarif pro kWh",
-            "price": "0.30",
-            "link": "overview.html"
+            "charging": "32111",
+            "station": "90005:04",
+            "type": "sms",
+            "date": "25/03/19 - 14:41",
+            "status": "Initialized"
         },
         {
             "id": 5,
-            "name": "Hochtarif",
-            "title": "Hochtarif pro kWh",
-            "price": "0.30",
-            "link": "overview.html"
+            "charging": "32111",
+            "station": "90005:04",
+            "type": "sms",
+            "date": "25/03/19 - 14:41",
+            "status": "Initialized"
         }
     ]
 
