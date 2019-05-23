@@ -4,11 +4,9 @@
         "ReserveAmount": 20.00,
         "PricePerHour": 0.15,
         "StartPrice": 1.00,
-        "WeeklyRecurrence": [
-            {
+        "WeeklyRecurrence": [{
                 "id": 1,
-                "Tariff": [
-                    {
+                "Tariff": [{
                         "StartTime": "00:00:00",
                         "EndTime": "07:00:00",
                         "Price": "0.18",
@@ -33,8 +31,7 @@
             },
             {
                 "id": 2,
-                "Tariff": [
-                    {
+                "Tariff": [{
                         "StartTime": "00:00:00",
                         "EndTime": "07:00:00",
                         "Price": "0.18",
@@ -59,57 +56,49 @@
             },
             {
                 "id": 3,
-                "Tariff": [
-                    {
-                        "StartTime": "00:00:00",
-                        "EndTime": "23:59:59",
-                        "Price": "0.18",
-                        "Name": "Niedertarif",
-                        "Class": "item"
-                    }
-                ]
+                "Tariff": [{
+                    "StartTime": "00:00:00",
+                    "EndTime": "23:59:59",
+                    "Price": "0.18",
+                    "Name": "Niedertarif",
+                    "Class": "item"
+                }]
             }
         ]
     },
-    "prices": [
-        {
+    "prices": [{
             "id": 1,
             "name": "Start",
             "title": "Start-Preis",
-            "price": "0.50",
-            "link": "#"
+            "price": "0.50"
+
         },
         {
             "id": 2,
             "name": "Stunde",
             "title": "Preis pro Stunde",
-            "price": "0.50",
-            "link": "#"
+            "price": "0.50"
         },
         {
             "id": 3,
             "name": "Ladegebühr",
             "title": "Ladegebühr pro kWh",
-            "price": "0.15",
-            "link": "#"
+            "price": "0.15"
         },
         {
             "id": 4,
             "name": "Niedertarif",
             "title": "Niedertarif pro kWh",
-            "price": "0.30",
-            "link": "overview.html"
+            "price": "0.30"
         },
         {
             "id": 5,
             "name": "Hochtarif",
             "title": "Hochtarif pro kWh",
-            "price": "0.30",
-            "link": "overview.html"
+            "price": "0.30"
         }
     ],
-    "receipts": [
-        {
+    "receipts": [{
             "ArticleNr": "2",
             "Quantity": 0.0000,
             "QuantityUnit": "kWh",
@@ -124,7 +113,8 @@
             "status": "Initialized",
             "timeStartedFormatted": "25.03.19, 09:18",
             "titleFormatted": "CHARGING 32090",
-            "statusFormatted": "CONFIRMED"
+            "statusFormatted": "CONFIRMED",
+            "link": "print.html"
         },
         {
             "ArticleNr": "2",
@@ -141,7 +131,8 @@
             "status": "Initialized",
             "timeStartedFormatted": "25.03.19, 09:18",
             "titleFormatted": "CHARGING 32090",
-            "statusFormatted": "CONFIRMED"
+            "statusFormatted": "CONFIRMED",
+            "link": "print.html"
         },
         {
             "ArticleNr": "2",
@@ -158,7 +149,8 @@
             "status": "Initialized",
             "timeStartedFormatted": "25.03.19, 09:18",
             "titleFormatted": "CHARGING 32090",
-            "statusFormatted": "CONFIRMED"
+            "statusFormatted": "CONFIRMED",
+            "link": "print.html"
         },
         {
             "ArticleNr": "2",
@@ -175,7 +167,8 @@
             "status": "Initialized",
             "timeStartedFormatted": "25.03.19, 09:18",
             "titleFormatted": "CHARGING 32090",
-            "statusFormatted": "CONFIRMED"
+            "statusFormatted": "CONFIRMED",
+            "link": "print.html"
         },
         {
             "ArticleNr": "2",
@@ -192,7 +185,8 @@
             "status": "Initialized",
             "timeStartedFormatted": "25.03.19, 09:18",
             "titleFormatted": "CHARGING 32090",
-            "statusFormatted": "CONFIRMED"
+            "statusFormatted": "CONFIRMED",
+            "link": "print.html"
         }
     ]
 }
