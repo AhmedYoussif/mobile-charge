@@ -194,7 +194,7 @@
             "link": "print.html"
         }
     ],
-        "print": [{
+        "receipt": [{
             "ArticleNr": "2",
             "Quantity": 0.0000,
             "QuantityUnit": "kWh",
