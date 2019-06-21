@@ -70,8 +70,8 @@
             "id": 1,
             "name": "Start",
             "title": "Start-Preis",
-            "price": "0.50",
-            "link": "print.html"
+            "price": "0quittungen50",
+            "link": "quittungen.html"
 
         },
         {
@@ -79,28 +79,28 @@
             "name": "Stunde",
             "title": "Preis pro Stunde",
             "price": "0.50",
-             "link": "print.html"
+             "link": "quittungen.html"
         },
         {
             "id": 3,
             "name": "Ladegebühr",
             "title": "Ladegebühr pro kWh",
             "price": "0.15",
-             "link": "print.html"
+             "link": "quittungen.html"
         },
         {
             "id": 4,
             "name": "Niedertarif",
             "title": "Niedertarif pro kWh",
             "price": "0.30",
-            "link": "print.html"
+            "link": "quittungen.html"
         },
         {
             "id": 5,
             "name": "Hochtarif",
             "title": "Hochtarif pro kWh",
             "price": "0.30",
-            "link": "print.html"
+            "link": "quittungen.html"
         }
     ],
     "receipts": [{
@@ -119,7 +119,7 @@
             "timeStartedFormatted": "25.03.19, 09:18",
             "titleFormatted": "CHARGING 32090",
             "statusFormatted": "CONFIRMED",
-            "link": "print.html"
+            "link": "quittungen.html"
         },
         {
             "ArticleNr": "2",
@@ -210,7 +210,7 @@
             "timeStartedFormatted": "25.03.19, 09:18",
             "titleFormatted": "CHARGING 32090",
             "statusFormatted": "CONFIRMED",
-            "link": "print.html"
+            "link": "quittungen.html"
         }
                      ]
 }
