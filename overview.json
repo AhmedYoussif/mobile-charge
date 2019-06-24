@@ -201,7 +201,7 @@
             "Price": 0.96,
             "TotalPrice": 0.0000,
             "Name": "Hochtarif",
-            "Description": "Start: 09:19:25, End: 09:19:40",
+            "Description": "Start: 09:19:25 <br> End: 09:19:40",
             "transactionId": "32090",
             "paymentType": "datatrans",
             "chargingStation": "90005:04",
